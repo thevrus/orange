@@ -7,7 +7,7 @@ main = "./build/index.js"
 [site]
   bucket = "./public"
 
-[[build.upload.rules]]
+[[rules]]
   type = "ESModule"
   globs = ["**/*.js"]
 
